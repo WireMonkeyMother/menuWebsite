@@ -7,6 +7,8 @@ body {
     display: flex;
 }
 
+/* Layout for the main page */
+
 .mainPageSection {
     flex: 1;
     display: flex;
@@ -22,4 +24,20 @@ body {
 .mainPageSection img {
     flex: 2;
     object-fit:fill;
+}
+
+/* Layout for the Food Now page */
+
+.foodNowSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foodNowSection h2 {
+    text-decoration: underline;
+    
+}
+.foodNowSection ul {
+    font-size: 20px;
 }
