@@ -25,6 +25,7 @@ body {
     flex: 2;
     object-fit:fill;
 }
+/* -------------------- */
 
 /* Layout for the Food Now page */
 
@@ -40,4 +41,31 @@ body {
 }
 .foodNowSection ul {
     font-size: 20px;
+}
+/* -------------------- */
+
+/* Layout for the Food Later page */
+.foodLaterBody {
+    flex-direction: column;
+}
+.foodLaterSection {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    width:100%;
+    font-size: 23px;
+}
+.foodLaterSection span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.foodLaterSection > span {
+    flex: 1;
+}
+.foodLaterSection > section {
+    flex: 2;
+}
+.evenDays {
+    background-color: rgb(207, 191, 49);
 }
