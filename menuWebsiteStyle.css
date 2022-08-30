@@ -69,3 +69,12 @@ body {
 .evenDays {
     background-color: rgb(207, 191, 49);
 }
+/* --------------------- */
+
+/* Layout for the Recipe pages */
+.recipeBody {
+    display: flex;
+}
+.recipeSection {
+    flex: 1;
+}
