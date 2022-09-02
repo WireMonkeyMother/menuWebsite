@@ -5,6 +5,22 @@
 body {
     background-color: white;
     display: flex;
+    flex-direction: column;
+}
+div {
+    display: flex;
+    flex-direction: row;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 50px;
+}
+button {
+    background-color: rgb(163, 106, 218);
+    color: white;
+    border-radius: 10px;
 }
 
 /* Layout for the main page */
@@ -72,7 +88,7 @@ body {
 /* --------------------- */
 
 /* Layout for the Recipe pages */
-.recipeBody {
+.recipeBody {                   
     display: flex;
 }
 .recipeSection {
